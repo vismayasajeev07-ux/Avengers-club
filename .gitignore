@@ -1,0 +1,14 @@
+# Dependencies & Cache
+node_modules/
+.DS_Store
+Thumbs.db
+
+# Build & Temporary Files
+babel.min.js
+*.zip
+download-git.js
+compile.js
+build-bundle.js
+.git-bin/
+*.log
+.gemini/

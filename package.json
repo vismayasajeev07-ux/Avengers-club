@@ -1,0 +1,21 @@
+{
+  "name": "avengers-club-recruitment",
+  "version": "1.0.0",
+  "description": "Avengers Club — College Club Recruitment Website & S.H.I.E.L.D. Command Portal",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "serve": "node server.js"
+  },
+  "keywords": [
+    "avengers-club",
+    "college-recruitment",
+    "react",
+    "sci-fi",
+    "hud",
+    "tailwind"
+  ],
+  "author": "Avengers Club Technical Operations",
+  "license": "MIT"
+}

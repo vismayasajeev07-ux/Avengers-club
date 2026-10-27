@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#06080e" />
+  <title>Avengers Club — Earth Needs You | College Recruitment Portal</title>
+  <meta name="description" content="Join the Avengers Club — A premier collegiate community of thinkers, creators, strategists, and doers making extraordinary things happen on campus and beyond." />
+
+  <!-- Preconnect to Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Orbitron:wght@500;600;700;800;900&family=Rajdhani:wght@500;600;700&family=Share+Tech+Mono&display=swap" rel="stylesheet" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    if (window.tailwind) {
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              command: {
+                base: '#06080e',
+                surface: '#0a0f18',
+                card: '#0f172a',
+                cardHover: '#152238'
+              },
+              cyan: {
+                glow: '#00f0ff',
+                dim: '#0284c7'
+              },
+              stark: {
+                red: '#ef4444',
+                redGlow: '#f87171'
+              },
+              hero: {
+                gold: '#fbbf24'
+              }
+            },
+            fontFamily: {
+              orbitron: ['Orbitron', 'sans-serif'],
+              rajdhani: ['Rajdhani', 'sans-serif'],
+              monoTech: ['Share Tech Mono', 'monospace'],
+              sans: ['Inter', 'sans-serif']
+            }
+          }
+        }
+      };
+    }
+  </script>
+
+  <!-- Custom HUD & Sci-Fi Theme Styles -->
+  <link rel="stylesheet" href="./src/styles/theme.css" />
+
+  <!-- React 18 & ReactDOM 18 (Local with CDN Fallback) -->
+  <script src="./vendor/react.production.min.js"></script>
+  <script>window.React || document.write('<script src="https://unpkg.com/react@18/umd/react.production.min.js"><\/script>')</script>
+  <script src="./vendor/react-dom.production.min.js"></script>
+  <script>window.ReactDOM || document.write('<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"><\/script>')</script>
+</head>
+<body class="bg-[#06080e] text-slate-100 antialiased min-h-screen">
+  <!-- React Mount Point -->
+  <div id="root">
+    <!-- Initial High-Tech Loading Skeleton -->
+    <div class="min-h-screen flex flex-col items-center justify-center space-y-4 bg-[#06080e]">
+      <div class="relative w-16 h-16 border-2 border-cyan-500/30 rounded-full flex items-center justify-center">
+        <div class="w-10 h-10 border-2 border-cyan-400 border-t-transparent rounded-full animate-spin"></div>
+      </div>
+      <div class="font-mono text-xs uppercase tracking-widest text-cyan-400 animate-pulse">
+        INITIALIZING S.H.I.E.L.D. RECRUITMENT INTERFACE...
+      </div>
+    </div>
+  </div>
+
+  <!-- Audio Synthesis Engine -->
+  <script src="./src/audio.js"></script>
+
+  <!-- Centralized Club Mock Data -->
+  <script src="./src/data/clubData.js"></script>
+
+  <!-- Pre-Compiled Universal Application Bundle (Zero CORS, Zero Delay) -->
+  <script src="./src/app.bundle.js"></script>
+</body>
+</html>
